@@ -1,38 +1,178 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  background-color: #202024!important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navelement:hover{
+   color: rgb(70 110 182)!important;
+   background-color: #202024!important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.nav-item:hover{
+  background-color: #202024!important;
+}
+.hamburger{
+  padding-top: 15px!important;
+  position: absolute;
+  right: 4%;
+  cursor: pointer;
+}
+.mobile-menu{
+  display: flex!important;
+  background-color: #202024!important;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: absolute;
+  top: 76px;
+  right: 0;
+  width: 100%;
+  padding-left: 12px!important;
+  border-top: 1px solid #bbb;
+  transition: 5s;
+}
+
+.selectedLink{
+  background-color: #202024!important;
+}
+.home-sec{
+  background-color: #121214!important;
+}
+.about-sec{
+  background-color: #202024!important;
+}
+.project-sec{
+  background-color: #121214!important;
+}
+.tiles{
+  background-color: #202024;
+  color: white!important;
+}
+.tiles2{
+  background-color: #121214;
+  color: white!important;
+}
+.title{
+  color: white!important;
+}
+.skills-sec{
+  background-color: #202024!important;
+  color: white!important;
+}
+.button{
+  background-color: rgb(108 99 255);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.button:hover{
+  background-color: #2c7cdd;
+  color: white!important;
+}
+.home-img{
+  padding-left:74px;
+}
+.btn{
+  width: 190px;
+  height: 50px;
+}
+.btn:hover{
+  color: white!important;
+}
+.footer-sec{
+  background-color: rgb(108 99 255)!important;
+  color: white!important;
+}
+.column.is-1{
+  width: 4%!important;
+}
+@media screen and (max-width: 480px) {
+  .mobile-header{
+    padding-top: 0px!important;
+    margin-top: 0px!important;
+  }
+  .home-img{
+    padding-left: 0px;
+    padding-top: 60px;
+    width: 260px;
+  }
+  .logo-txt{
+    padding-left: 0px!important;
+  }
+  .mobile-about{
+    padding-top: 0px!important;
+  }
+  .column.is-11-mobile {
+    width: 110.66667%;
+ } 
+ .footer{
+   padding: 5px!important;
+   display: flex;
+   justify-content: center!important;
+   align-items: center!important;
+ }
+}
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .logo-txt{
+    padding-left: 0px!important;
+  }
+  .mobile-header{
+    padding-top: 0px!important;
+    margin-top: 0px!important;
+  }
+   .home-img{
+    padding-left: 0px;
+    padding-top: 60px;
+    width: 400px;
+  }
+  .footer{
+   padding: 10px!important;
+   display: flex;
+   justify-content: center!important;
+   align-items: center!important;
+ }
+}
+@media screen and (min-width: 1220px) and (max-width: 1460px) {
+  .footer{
+    padding-left: 5rem!important;
+  }
+  .mobile-ft{
+    margin-left: 6rem!important;
+  }
+}
+.title1{
+  color: black;
+  background-color: yellow;
+  width: 90px;
+  height: 55px;
+}
+.title5{
+  color: #2c7cdd;
+  width: 90px;
+  height: 55px;
+}
+.title3{
+  color: red;
+  width: 90px;
+  height: 55px;
+}
+.title4{
+  color: green;
+  width: 90px;
+  height: 55px;
+}
+.title5{
+  width: 90px;
+  height: 55px;
+}
+#ichrak{
+  width: 90px;
+  height: 55px;
+}
+.title6{
+  color:white;
+  width: 90px;
+  height: 55px;
+}
+#icons:hover{
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(221, 10, 10, 0.883) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
