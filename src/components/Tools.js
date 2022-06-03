@@ -24,8 +24,7 @@ function Tools() {
                   Tools
                 </h3>
                 <p class="is-size-5"style={{ color: "white" }}>
-                 I first started my coding journey with Python. Then, I moved on to learn HTML, CSS and javascript. I began with React and Bulma CSS not long ago,  which I learnt in school.
-                 However, I currently use HTML, CSS, javascript, React and Bulma Css only.
+                I first started my coding journey with Html. Then, I moved on to learn  javascript. I began with React , . However, I currently use HTML, CSS, javascript, React 
                 </p>
               </div>
 
